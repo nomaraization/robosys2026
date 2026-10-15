@@ -11,5 +11,4 @@ x = 0
 for line in sys.stdin:
     x += tonum(line.rstrip())   #line.rstrip()で末尾の改行を除去
 
-
 print(x)
